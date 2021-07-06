@@ -43,9 +43,12 @@ body {
 header{
      position: fixed;
      top: 0;
+     left: 0;
+     z-index: 100;
      background: var(--linear);
      width: 100%;
-     height: 25rem;
+     
+     margin-bottom: 25rem;
 }
 
 .container{
@@ -84,6 +87,7 @@ input {
      color: var(--white);
      background: transparent;
      border: none;
+     width: 85vw;
 }
 
 ::placeholder{

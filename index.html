@@ -103,5 +103,19 @@
         </div>
       </article>
     </main>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+          const sr = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 2000,
+            reset: true
+        });
+
+        ScrollReveal().reveal('article', { delay: 200 });
+        ScrollReveal().reveal('.date-bar', { delay: 400 });
+        ScrollReveal().reveal('h1', { delay: 500 });
+        ScrollReveal().reveal('p', { delay: 600 });
+    </script>
   </body>
 </html>
